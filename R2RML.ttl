@@ -1,0 +1,588 @@
+# Mapping created using Juma editor.
+  @prefix rr: <http://www.w3.org/ns/r2rml#> .
+  @prefix rrf: <http://kdeg.scss.tcd.ie/ns/rrf#> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix csv: <http://example.org/csv/> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix class: <http://example.org/class/> .
+    @prefix prop: <http://example.org/Property/> .
+
+  <#TriplesMap1>
+  rr:logicalTable [
+    rr:tableName "State";
+  ];
+
+   rr:subjectMap [
+      rr:template "http://www.example.org/State/{STATEID}";
+      rr:class class:State;
+   ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:name;
+    ];
+
+     rr:objectMap [
+      rr:column "STATE";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:area;
+    ];
+
+     rr:objectMap [
+      rr:column "AREA";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:numberofstillbirths;
+    ];
+
+     rr:objectMap [
+      rr:column "NUMBEROFSTILLBIRTHS";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:poliovacinations;
+    ];
+
+     rr:objectMap [
+      rr:column "POLIOVACINATIONS";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:statehood;
+    ];
+
+     rr:objectMap [
+      rr:column "STATEHOOD";
+      rr:termType rr:Literal;
+      rr:datatype xsd:dateTime;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:totalliteracyrate;
+    ];
+
+     rr:objectMap [
+      rr:column "LITERACYRATE";
+      rr:termType rr:Literal;
+      rr:datatype xsd:float;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:totalnumberofmotoraccidents;
+    ];
+
+     rr:objectMap [
+      rr:column "TOTALNUMBEROFMOTORACCIDENTS";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:vehiclecode;
+    ];
+
+     rr:objectMap [
+      rr:column "VEHICLECODE";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:hascapital;
+    ];
+
+     rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap9>;
+      rr:joinCondition [
+       rr:child "Capital";
+       rr:parent "City";
+     ];
+    ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:neighbouringstate;
+    ];
+
+     rr:objectMap [
+      rr:column "NEIGHBOURINGSTATE";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:similarstate;
+    ];
+
+     rr:objectMap [
+      rr:column "SIMILARSTATE";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:nativelanguage;
+    ];
+
+     rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap10>;
+      rr:joinCondition [
+       rr:child "NativeLanguage";
+       rr:parent "Language";
+     ];
+    ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:haspopulation;
+    ];
+
+     rr:objectMap [
+      rr:template "http://www.example.org/State/{POPULATIONID}";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:hascareerstream;
+    ];
+
+     rr:objectMap [
+      rr:template "http://www.example.org/State/{CAREESTREAMID}";
+     ];
+  ];
+  .
+
+  <#TriplesMap2>
+  rr:logicalTable [
+    rr:tableName "State";
+  ];
+
+   rr:subjectMap [
+      rr:template "http://www.example.org/State/{POPULATIONID}";
+      rr:class class:Population;
+   ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:totalpopulation;
+    ];
+
+     rr:objectMap [
+      rr:column "POPULATION";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:sexratio;
+    ];
+
+     rr:objectMap [
+      rr:column "SEXRATIO";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:malepopulation;
+    ];
+
+     rr:objectMap [
+      rr:template "http://www.example.org/State/{MALEID}";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:femalepopulation;
+    ];
+
+     rr:objectMap [
+      rr:template "http://www.example.org/State/{FEMALEID}";
+     ];
+  ];
+  .
+
+  <#TriplesMap3>
+  rr:logicalTable [
+    rr:tableName "State";
+  ];
+
+   rr:subjectMap [
+      rr:template "http://www.example.org/State/{MALEID}";
+      rr:class class:Male;
+   ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:literacyrate;
+    ];
+
+     rr:objectMap [
+      rr:column "LITERACYRATEMEN";
+      rr:termType rr:Literal;
+      rr:datatype xsd:float;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:averageage;
+    ];
+
+     rr:objectMap [
+      rr:column "AVERAGEAGEMEN";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:averagedeathage;
+    ];
+
+     rr:objectMap [
+      rr:column "AVERAGEDEATHAGEMEN";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:averageheight;
+    ];
+
+     rr:objectMap [
+      rr:column "AVERAGEHEIGHTMEN";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  .
+
+  <#TriplesMap4>
+  rr:logicalTable [
+    rr:tableName "State";
+  ];
+
+   rr:subjectMap [
+      rr:template "http://www.example.org/State/{FEMALEID}";
+      rr:class class:Female;
+   ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:literacyrate;
+    ];
+
+     rr:objectMap [
+      rr:column "LITERACYRATEWOMEN";
+      rr:termType rr:Literal;
+      rr:datatype xsd:float;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:averageheight;
+    ];
+
+     rr:objectMap [
+      rr:column "AVERAGEHEIGHTWOMEN";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:averageage;
+    ];
+
+     rr:objectMap [
+      rr:column "AVERAGEAGEWOMEN";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:averagedeathage;
+    ];
+
+     rr:objectMap [
+      rr:column "AVERAGEDEATHAGEWOMEN";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  .
+
+  <#TriplesMap5>
+  rr:logicalTable [
+    rr:tableName "State";
+  ];
+
+   rr:subjectMap [
+      rr:template "http://www.example.org/State/{CAREESTREAMID}";
+      rr:class class:CareerStream;
+   ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:sciencestream;
+    ];
+
+     rr:objectMap [
+      rr:template "http://www.example.org/State/{SCIENCEID}";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:commercestream;
+    ];
+
+     rr:objectMap [
+      rr:template "http://www.example.org/State/{COMMERCEID}";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:artsstream;
+    ];
+
+     rr:objectMap [
+      rr:template "http://www.example.org/State/{ARTSID}";
+     ];
+  ];
+  .
+
+  <#TriplesMap6>
+  rr:logicalTable [
+    rr:tableName "State";
+  ];
+
+   rr:subjectMap [
+      rr:template "http://www.example.org/State/{SCIENCEID}";
+      rr:class class:Science;
+   ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:percentageofpeople;
+    ];
+
+     rr:objectMap [
+      rr:column "SCIENCEPERCENTAGE";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:mostfrequentoccupation;
+    ];
+
+     rr:objectMap [
+      rr:column "SCIENCE";
+     ];
+  ];
+  .
+
+  <#TriplesMap7>
+  rr:logicalTable [
+    rr:tableName "State";
+  ];
+
+   rr:subjectMap [
+      rr:template "http://www.example.org/State/{COMMERCEID}";
+      rr:class class:Commerce;
+   ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:percentageofpeople;
+    ];
+
+     rr:objectMap [
+      rr:column "COMMERCEPERCENTAGE";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:mostfrequentoccupation;
+    ];
+
+     rr:objectMap [
+      rr:column "COMMERCE";
+     ];
+  ];
+  .
+
+  <#TriplesMap8>
+  rr:logicalTable [
+    rr:tableName "State";
+  ];
+
+   rr:subjectMap [
+      rr:template "http://www.example.org/State/{ARTSID}";
+      rr:class class:Arts;
+   ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:percentageofpeople;
+    ];
+
+     rr:objectMap [
+      rr:column "ARTSPERCENTAGE";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:mostfrequentoccupation;
+    ];
+
+     rr:objectMap [
+      rr:column "ARTS";
+     ];
+  ];
+  .
+
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix csv: <http://example.org/csv/> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+  <#TriplesMap9>
+  rr:logicalTable [
+    rr:tableName "City";
+  ];
+
+   rr:subjectMap [
+      rr:template "http://www.example.org/City/{CITY}";
+      rr:class class:City;
+   ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:name;
+    ];
+
+     rr:objectMap [
+      rr:column "CITY";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:population;
+    ];
+
+     rr:objectMap [
+      rr:column "POPULATION";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:state;
+    ];
+
+     rr:objectMap [
+      rr:column "STATE";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:country;
+    ];
+
+     rr:objectMap [
+      rr:column "COUNTRY";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:longitude;
+    ];
+
+     rr:objectMap [
+      rr:column "LONGITUDE";
+      rr:termType rr:Literal;
+      rr:datatype xsd:float;
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:latitude;
+    ];
+
+     rr:objectMap [
+      rr:column "LATITUDE";
+      rr:termType rr:Literal;
+      rr:datatype xsd:float;
+     ];
+  ];
+  .
+
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix csv: <http://example.org/csv/> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+  <#TriplesMap10>
+  rr:logicalTable [
+    rr:tableName "Language";
+  ];
+
+   rr:subjectMap [
+      rr:template "http://www.example.org/Language/{LANGUAGE}";
+      rr:class class:Language;
+   ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:languagename;
+    ];
+
+     rr:objectMap [
+      rr:column "LANGUAGE";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:totalpercentage;
+    ];
+
+     rr:objectMap [
+      rr:column "PERCENTAGEOFSPEAKERS";
+     ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicateMap [
+      rr:constant prop:totalspeakers;
+    ];
+
+     rr:objectMap [
+      rr:column "TOTALSPEAKERS";
+      rr:termType rr:Literal;
+      rr:datatype xsd:integer;
+     ];
+  ];
+  .

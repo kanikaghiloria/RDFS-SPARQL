@@ -1,0 +1,9 @@
+<div>
+  <div class="header">
+    <div [ngClass]="{'highlight' : isQuery}" (click)="queryClick()">Defined Queries</div>
+    <div [ngClass]="{'highlight' : isCustomQuery}" (click)="customQueryClick()">Custom Queries</div>
+  </div>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>

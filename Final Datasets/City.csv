@@ -1,0 +1,208 @@
+ID,City,Latitude,Longitude,Country,State,Population
+1,Mumbai,18.987807,72.836447,India,Maharashtra,18978000
+2,Delhi,28.651952,77.231495,India,Delhi,15926000
+3,Kolkata,22.562627,88.363044,India,West Bengal,14787000
+4,Chennai,13.084622,80.248357,India,Tamil Nadu ,7163000
+5,Bengalaru,12.977063,77.587106,India,Karnataka,6787000
+6,Hyderabad,17.384052,78.456355,India,Andhra Pradesh,6376000
+7,Ahmadabad,23.025793,72.587265,India,Gujarat,5375000
+8,Haora,22.576882,88.318566,India,West Bengal,4841638
+9,Pune,18.513271,73.849852,India,Maharashtra,4672000
+10,Sarat,21.195944,72.830232,India,Gujarat,3842000
+11,Mardanpur,26.430066,80.267176,India,Uttar Pradesh,3162000
+12,Rampura,26.884682,75.789336,India,Rajasthan,2917000
+13,Lucknow,26.839281,80.923133,India,Uttar Pradesh,2695000
+14,Nara,21.203096,79.089284,India,Maharashtra,2454000
+15,Patna,25.615379,85.101027,India,Bihar,2158000
+16,Indore,22.717736,75.85859,India,Madhya Pradesh,2026000
+17,Vadodara,22.299405,73.208119,India,Gujarat,1756000
+18,Bhopal,23.254688,77.402892,India,Madhya Pradesh,1727000
+19,Coimbatore,11.005547,76.966122,India,Tamil Nadu ,1696000
+20,Ludhiana,30.912042,75.853789,India,Punjab,1649000
+21,agra,27.187935,78.003944,India,Uttar Pradesh,1592000
+22,Kalyan,19.243703,73.135537,India,Maharashtra,1576614
+23,Vishakhapatnam,17.704052,83.297663,India,Andhra Pradesh,1529000
+24,Kochi,9.947743,76.253802,India,Kerala,1519000
+25,Nasik,19.999963,73.776887,India,Maharashtra,1473000
+26,Meerut,28.980018,77.706356,India,Uttar Pradesh,1398000
+27,Faridabad,28.411236,77.313162,India,Haryana,1394000
+28,Varanasi,25.31774,83.005811,India,Uttar Pradesh,1352000
+29,Ghaziabad,28.665353,77.439148,India,Uttar Pradesh,1341000
+30,asansol,23.683333,86.983333,India,West Bengal,1328000
+31,Jamshedpur,22.802776,86.185448,India,Jharkhand,1300000
+32,Madurai,9.917347,78.119622,India,Tamil Nadu ,1294000
+33,Jabalpur,23.174495,79.935903,India,Madhya Pradesh,1285000
+34,Rajkot,22.291606,70.793217,India,Gujarat,1260000
+35,Dhanbad,23.801988,86.443244,India,Jharkhand,1246000
+36,Amritsar,31.622337,74.875335,India,Punjab,1212000
+37,Warangal,17.978423,79.600209,India,Andhra Pradesh,1203853
+38,Allahabad,25.44478,81.843217,India,Uttar Pradesh,1201000
+39,Srinagar,34.085652,74.805553,India,Jammu and Kashmir,1140000
+40,Aurangabad,19.880943,75.346739,India,Maharashtra,1113000
+41,Bhilai,21.209188,81.428497,India,Chhattisgarh,1097000
+42,Solapur,17.671523,75.910437,India,Maharashtra,1057000
+43,Ranchi,23.347768,85.338564,India,Jharkhand,1044000
+44,Jodhpur,26.26841,73.005943,India,Rajasthan,995000
+45,Guwahati,26.176076,91.762932,India,Assam,983000
+46,Chandigarh,30.736292,76.788398,India,Chandigarh,979000
+47,Gwalior,26.229825,78.173369,India,Madhya Pradesh,978000
+48,Thiruvananthapuram,8.485498,76.949238,India,Kerala,954000
+49,Tiruchchirappalli,10.815499,78.696513,India,Tamil Nadu ,951000
+50,Hubli,15.349955,75.138619,India,Karnataka,890000
+51,Mysore,12.292664,76.638543,India,Karnataka,887000
+52,Raipur,21.233333,81.633333,India,Chhattisgarh,875000
+53,Salem,11.651165,78.158672,India,Tamil Nadu ,873000
+54,Bhubaneshwar,20.272411,85.833853,India,Odisha,844000
+55,Kota,25.182544,75.839065,India,Rajasthan,827000
+56,Jhansi,25.458872,78.579943,India,Uttar Pradesh,826494
+57,Bareilly,28.347023,79.421934,India,Uttar Pradesh,817000
+58,Aligarh,27.881453,78.07464,India,Uttar Pradesh,805000
+59,Bhiwandi,19.300229,73.058813,India,Maharashtra,795000
+60,Jammu,32.735686,74.869112,India,Jammu and Kashmir,791000
+61,Moradabad,28.838931,78.776838,India,Uttar Pradesh,787000
+62,Mangalore,12.865371,74.842432,India,Karnataka,776632
+63,Kolhapur,16.695633,74.231669,India,Maharashtra,750000
+64,Amravati,20.933272,77.75152,India,Maharashtra,734451
+65,Dehra Dan,30.324427,78.033922,India,Uttarakhand,714223
+66,Malegaon Camp,20.569974,74.515415,India,Maharashtra,690844
+67,Nellore,14.449918,79.986967,India,Andhra Pradesh,678004
+68,Gopalpur,26.735389,83.38064,India,Uttar Pradesh,674246
+69,Shimoga,13.932424,75.572555,India,Karnataka,654055
+70,Tiruppar,11.104096,77.346402,India,Tamil Nadu ,650000
+71,Raurkela,22.224964,84.864143,India,Odisha,625831
+72,Nanded,19.160227,77.314971,India,Maharashtra,623708
+73,Belgaum,15.862643,74.508534,India,Karnataka,608756
+74,Sangli,16.856777,74.569196,India,Maharashtra,601214
+75,Chanda,19.950758,79.295229,India,Maharashtra,595118
+76,Ajmer,26.452103,74.638667,India,Rajasthan,589985
+77,Cuttack,20.522922,85.78813,India,Odisha,580000
+78,Bikaner,28.017623,73.314955,India,Rajasthan,576015
+79,Bhavnagar,21.774455,72.152496,India,Gujarat,554978
+80,Hisar,29.153938,75.722944,India,Haryana,544829
+81,Bilaspur,22.080046,82.155431,India,Chhattisgarh,543454
+82,Tirunelveli,8.725181,77.684519,India,Tamil Nadu ,542200
+83,Guntar,16.299737,80.457293,India,Andhra Pradesh,530577
+84,Shiliguri,26.710035,88.428512,India,West Bengal,515574
+85,Ujjain,23.182387,75.776433,India,Madhya Pradesh,513350
+86,Davangere,14.469237,75.92375,India,Karnataka,503564
+87,Akola,20.709569,76.998103,India,Maharashtra,503502
+88,Saharanpur,29.967896,77.545221,India,Uttar Pradesh,484873
+89,Gulbarga,17.335827,76.83757,India,Karnataka,483615
+90,Bhatpara,22.866431,88.401129,India,West Bengal,483129
+91,Dhalia,20.901299,74.777373,India,Maharashtra,479073
+92,Udaipur,24.57951,73.690508,India,Rajasthan,469737
+93,Bellary,15.142049,76.92398,India,Karnataka,445388
+94,Tuticorin,8.805038,78.151884,India,Tamil Nadu ,436094
+95,Kurnool,15.828865,78.036021,India,Andhra Pradesh,424920
+96,Gaya,24.796858,85.003852,India,Bihar,423692
+97,Sikar,27.614778,75.138671,India,Rajasthan,400000
+98,Tumkar,13.341358,77.102203,India,Karnataka,399606
+99,Kollam,8.881131,76.584694,India,Kerala,394163
+100,Ahmadnagar,19.094571,74.738432,India,Maharashtra,391760
+101,Bhilwara,25.347071,74.640812,India,Rajasthan,389911
+102,Nizamabad,18.673151,78.10008,India,Andhra Pradesh,388505
+103,Parbhani,19.268553,76.770807,India,Maharashtra,378326
+104,Shillong,25.573987,91.896807,India,Meghalaya,375527
+105,Latar,18.399487,76.584252,India,Maharashtra,374394
+106,Rajapalaiyam,9.451111,77.556121,India,Tamil Nadu ,369991
+107,Bhagalpur,25.244462,86.971832,India,Bihar,361548
+108,Muzaffarnagar,29.470914,77.703324,India,Uttar Pradesh,349706
+109,Muzaffarpur,26.122593,85.390553,India,Bihar,333200
+110,Mathura,27.503501,77.672145,India,Uttar Pradesh,330511
+111,Patiala,30.336245,76.392199,India,Punjab,329224
+112,Saugor,23.838766,78.738738,India,Madhya Pradesh,328240
+113,Brahmapur,19.311514,84.792903,India,Odisha,324726
+114,Shahbazpur,27.874116,79.879327,India,Uttar Pradesh,320434
+115,New Delhi,28.6,77.2,India,Delhi,317797
+116,Rohtak,28.894473,76.589166,India,Haryana,317245
+117,Samlaipadar,21.478072,83.990505,India,Odisha,310852
+118,Ratlam,23.330331,75.040315,India,Madhya Pradesh,307229
+119,Firozabad,27.150917,78.397808,India,Uttar Pradesh,306409
+120,Rajahmundry,17.005171,81.777839,India,Andhra Pradesh,304804
+121,Barddhaman,23.255716,87.856906,India,West Bengal,301725
+122,Bidar,17.913309,77.530105,India,Karnataka,300136
+123,Bamanpuri,28.804495,79.040305,India,Uttar Pradesh,296418
+124,Kakinada,16.960361,82.238086,India,Andhra Pradesh,292923
+125,Panipat,29.387471,76.968246,India,Haryana,292808
+126,Khammam,17.247672,80.143682,India,Andhra Pradesh,290839
+127,Bhuj,23.253972,69.669281,India,Gujarat,289429
+128,Karimnagar,18.436738,79.13222,India,Andhra Pradesh,288251
+129,Tirupati,13.635505,79.419888,India,Andhra Pradesh,287035
+130,Hospet,15.269537,76.387103,India,Karnataka,286007
+131,Chikka Mandya,12.545602,76.895078,India,Karnataka,285034
+132,Alwar,27.566291,76.610202,India,Rajasthan,283228
+133,Aizawl,23.736701,92.714596,India,Mizoram,283021
+134,Bijapur,16.827715,75.718988,India,Karnataka,271064
+135,Imphal,24.808053,93.944203,India,Manipur,264986
+136,Tharati Etawah,26.758236,79.014875,India,Uttar Pradesh,257448
+137,Raichar,16.205459,77.35567,India,Karnataka,255240
+138,Pathankot,32.274842,75.652865,India,Punjab,253987
+139,Chirala,15.823849,80.352187,India,Andhra Pradesh,253000
+140,Sonipat,28.994778,77.019375,India,Haryana,250521
+141,Mirzapur,25.144902,82.565335,India,Uttar Pradesh,245817
+142,Hapur,28.729845,77.780681,India,Uttar Pradesh,242920
+143,Porbandar,21.641346,69.600868,India,Gujarat,234684
+144,Bharatpur,27.215251,77.492786,India,Rajasthan,229384
+145,Puducherry,11.933812,79.829792,India,Puducherry,227411
+146,Karnal,29.691971,76.984483,India,Haryana,225049
+147,Nagercoil,8.177313,77.43437,India,Tamil Nadu ,224329
+148,Thanjavar,10.785233,79.139093,India,Tamil Nadu ,219571
+149,Pali,25.775125,73.320611,India,Rajasthan,210103
+150,Agartala,23.836049,91.279386,India,Tripura,203264
+151,Ongole,15.503565,80.044541,India,Andhra Pradesh,202860
+152,Puri,19.798254,85.824938,India,Odisha,201026
+153,Dindigul,10.362853,77.975827,India,Tamil Nadu ,200797
+154,Haldia,22.025278,88.058333,India,West Bengal,200762
+155,Bulandshahr,28.403922,77.857731,India,Uttar Pradesh,198612
+156,Purnea,25.776703,87.473655,India,Bihar,198453
+157,Proddatar,14.7502,78.548129,India,Andhra Pradesh,197451
+158,Gurgaon,28.460105,77.026352,India,Haryana,197340
+159,Khanapur,21.273716,76.117376,India,Maharashtra,197233
+160,Machilipatnam,16.187466,81.13888,India,Andhra Pradesh,192827
+161,Bhiwani,28.793044,76.13968,India,Haryana,190855
+162,Nandyal,15.477994,78.483605,India,Andhra Pradesh,188654
+163,Bhusaval,21.043649,75.785058,India,Maharashtra,183001
+164,Bharauri,27.598203,81.694709,India,Uttar Pradesh,182218
+165,Tonk,26.168672,75.786111,India,Rajasthan,181734
+166,Sirsa,29.534893,75.028981,India,Haryana,181639
+167,Vizianagaram,18.11329,83.397743,India,Andhra Pradesh,179358
+168,Vellore,12.905769,79.137104,India,Tamil Nadu ,177081
+169,Alappuzha,9.494647,76.331108,India,Kerala,176783
+170,Shimla,31.104423,77.166623,India,Himachal Pradesh,173503
+171,Hindupur,13.828065,77.491425,India,Andhra Pradesh,168312
+172,Baramala,34.209004,74.342853,India,Jammu and Kashmir,167986
+173,Bakshpur,25.894283,80.792104,India,Uttar Pradesh,166480
+174,Dibrugarh,27.479888,94.90837,India,Assam,166366
+175,Saidapur,27.598784,80.75089,India,Uttar Pradesh,164435
+176,Navsari,20.85,72.916667,India,Gujarat,163000
+177,Budaun,28.038114,79.126677,India,Uttar Pradesh,161555
+178,Cuddalore,11.746289,79.764362,India,Tamil Nadu ,158569
+179,Haripur,31.463218,75.986418,India,Punjab,158142
+180,Krishnapuram,12.869617,79.719469,India,Tamil Nadu ,155029
+181,Fyzabad,26.775486,82.150182,India,Uttar Pradesh,153047
+182,Silchar,24.827327,92.797868,India,Assam,152393
+183,Ambala,30.360993,76.797819,India,Haryana,146787
+184,Krishnanagar,23.405761,88.490733,India,West Bengal,145926
+185,Kolar,13.137679,78.129989,India,Karnataka,144625
+186,Kumbakonam,10.959789,79.377472,India,Tamil Nadu ,139264
+187,Tiruvannamalai,12.230204,79.072954,India,Tamil Nadu ,138243
+188,Pilibhit,28.631245,79.804362,India,Uttar Pradesh,131008
+189,Abohar,30.144533,74.19552,India,Punjab,130603
+190,Port Blair,11.666667,92.75,India,Andaman and Nicobar Islands,127562
+191,Alipur Duar,26.4835,89.522855,India,West Bengal,127342
+192,Hatasa,27.592698,78.013843,India,Uttar Pradesh,126882
+193,Valparai,10.325163,76.955299,India,Tamil Nadu ,114308
+194,Aurangabad,24.752037,84.374202,India,Bihar,95929
+195,Kohima,25.674673,94.110988,India,Nagaland,92113
+196,Gangtok,27.325739,88.612155,India,Sikkim,77900
+197,Karar,10.960277,78.076753,India,Tamil Nadu ,76915
+198,Jorhat,26.757509,94.203055,India,Assam,69033
+199,Panaji,15.498289,73.824541,India,Goa,65586
+200,Saidpur,34.318174,74.457093,India,Jammu and Kashmir,63035
+201,Tezpur,26.633333,92.8,India,Assam,58851
+202,Itanagar,27.102349,93.692047,India,Arunachal Pradesh,44971
+203,Daman,20.414315,72.83236,India,Daman and Diu,39737
+204,Silvassa,20.273855,72.996728,India,Dadra and Nagar Haveli,27359
+205,Diu,20.715115,70.987952,India,Daman and Diu,23779
+206,Dispur,26.135638,91.800688,India,Assam,16140
+207,Kavaratti,10.566667,72.616667,India,Lakshadweep,10688

@@ -1,0 +1,350 @@
+@prefix : <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3> .
+
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCapital
+:hasCapital rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdf:type owl:InverseFunctionalProperty ;
+            rdfs:domain :State ;
+            rdfs:range :City .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCareer
+:hasCareer rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :State ;
+           rdfs:range :Career_Stream .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCity
+:hasCity rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdf:type owl:FunctionalProperty ;
+         rdfs:domain :State ;
+         rdfs:range :City .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasFemale
+:hasFemale rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :Population ;
+           rdfs:range :Female .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasMale
+:hasMale rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdf:type owl:FunctionalProperty ;
+         rdfs:domain :Population ;
+         rdfs:range :Male .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNativeLanguage
+:hasNativeLanguage rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdf:type owl:FunctionalProperty ;
+                   rdfs:domain :State ;
+                   rdfs:range :Language .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNeighbour
+:hasNeighbour rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdf:type owl:SymmetricProperty ;
+              rdfs:domain :State ;
+              rdfs:range :State .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasPopulation
+:hasPopulation rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:domain :State ;
+               rdfs:range :Population .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#similarState
+:similarState rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdf:type owl:FunctionalProperty ,
+                       owl:TransitiveProperty ;
+              rdfs:domain :State ;
+              rdfs:range :State .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamArts
+:streamArts rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :hasCareer ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :Career_Stream ;
+            rdfs:range :Arts .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamCommerce
+:streamCommerce rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasCareer ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain :Career_Stream ;
+                rdfs:range :Commerce .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamScience
+:streamScience rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :hasCareer ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:domain :Career_Stream ;
+               rdfs:range :Science .
+
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty rdfs:domain :State .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Area
+:Area rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf owl:topDataProperty ;
+      rdf:type owl:FunctionalProperty ;
+      rdfs:domain :State ;
+      rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Age
+:Average_Age rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:domain :Female ,
+                         :Male ;
+             rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Death_Age
+:Average_Death_Age rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdf:type owl:FunctionalProperty ;
+                   rdfs:domain :Female ,
+                               :Male ;
+                   rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Height
+:Average_Height rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain :Female ,
+                            :Male ;
+                rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream_Percentage
+:Career_Stream_Percentage rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf owl:topDataProperty ;
+                          rdfs:domain :Arts ,
+                                      :Commerce ,
+                                      :Science ;
+                          rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language_Name
+:Language_Name rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Language ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Latitude
+:Latitude rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :City ;
+          rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Literacy_Rate
+:Literacy_Rate rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:domain :Female ,
+                           :Male ;
+               rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Longitude
+:Longitude rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :City ;
+           rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Most_Frequent_Occupation
+:Most_Frequent_Occupation rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf owl:topDataProperty ;
+                          rdf:type owl:FunctionalProperty ;
+                          rdfs:domain :Arts ,
+                                      :Commerce ,
+                                      :Science ;
+                          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Name
+:Name rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf owl:topDataProperty ;
+      rdf:type owl:FunctionalProperty ;
+      rdfs:domain :City ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Number_of_still_births
+:Number_of_still_births rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf owl:topDataProperty ;
+                        rdf:type owl:FunctionalProperty ;
+                        rdfs:domain :State ;
+                        rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Polio_vaccinations
+:Polio_vaccinations rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:domain :State ;
+                    rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Sex_Ratio
+:Sex_Ratio rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Population ;
+           rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State_Name
+:State_Name rdf:type owl:DatatypeProperty ;
+            rdfs:domain :City ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Statehood
+:Statehood rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :State ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Literacy_Rate
+:Total_Literacy_Rate rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty ;
+                     rdf:type owl:FunctionalProperty ;
+                     rdfs:domain :State ;
+                     rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Percentage_of_Speakers
+:Total_Percentage_of_Speakers rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf owl:topDataProperty ;
+                              rdf:type owl:FunctionalProperty ;
+                              rdfs:domain :Language ;
+                              rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Population
+:Total_Population rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Population ;
+                  rdfs:range xsd:long .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Speakers
+:Total_Speakers rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain :Language ;
+                rdfs:range xsd:long .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_number_of_motor_accidents
+:Total_number_of_motor_accidents rdf:type owl:DatatypeProperty ;
+                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                 rdf:type owl:FunctionalProperty ;
+                                 rdfs:domain :State ;
+                                 rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Vehicle_code
+:Vehicle_code rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :State ;
+              rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Arts
+:Arts rdf:type owl:Class ;
+      rdfs:subClassOf :Career_Stream .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream
+:Career_Stream rdf:type owl:Class ;
+               rdfs:subClassOf :State .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#City
+:City rdf:type owl:Class ;
+      rdfs:subClassOf :State .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Commerce
+:Commerce rdf:type owl:Class ;
+          rdfs:subClassOf :Career_Stream .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Female
+:Female rdf:type owl:Class ;
+        rdfs:subClassOf :Population .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language
+:Language rdf:type owl:Class ;
+          rdfs:subClassOf :State .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Male
+:Male rdf:type owl:Class ;
+      rdfs:subClassOf :Population .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Population
+:Population rdf:type owl:Class ;
+            rdfs:subClassOf :State .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Science
+:Science rdf:type owl:Class ;
+         rdfs:subClassOf :Career_Stream .
+
+
+###  http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State
+:State rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

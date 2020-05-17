@@ -1,0 +1,140 @@
+SELECT distinct ?name ?vehicle_code  ?average_death_age
+WHERE
+{
+  ?state prop:name ?name;
+         prop:vehiclecode ?vehicle_code;
+         prop:totalnumberofmotoraccidents ?accidents;
+         prop:haspopulation ?pop.
+  ?pop prop:malepopulation ?mpop.
+  ?mpop prop:averagedeathage ?average_death_age.  
+}
+
+Order by desc(?accidents) 
+
+LIMIT 1
+
+--------------------------------------------------------------
+
+select ?name ?percentage_arts ?literacy_men ?literacy_women 
+where
+{
+  ?state prop:hascareerstream ?career.
+  ?career prop:artsstream ?arts.
+  ?arts  prop:percentageofpeople ?percentage_arts.
+  
+  ?state prop:name ?name;
+         prop:haspopulation ?pop.
+  ?pop prop:femalepopulation ?fpop;
+       prop:malepopulation ?mpop.
+  ?fpop prop:literacyrate ?literacy_women.
+  ?mpop prop:literacyrate ?literacy_men.  
+}
+
+order by desc(?percentage_arts)
+limit 1
+
+--------------------------------------------------------------
+
+SELECT  ?city_name ?population
+WHERE
+{
+  ?city prop:state "West Bengal";
+        prop:name ?city_name;
+        prop:population ?population.
+  ?state prop:name "West Bengal".
+}
+Order BY DESC (?population)
+Limit 5
+
+--------------------------------------------------------------
+
+select (count(?name) AS ?number_of_states)
+where
+{
+  ?state prop:hascareerstream ?career.
+  ?career prop:commercestream ?commerce.
+  ?commerce  prop:mostfrequentoccupation 'CA'.
+  ?state prop:name ?name.
+}
+
+--------------------------------------------------------------
+
+SELECT  ?name  ?density ?name_capital
+WHERE
+{
+  ?state prop:area ?area;
+         prop:name ?name; 
+    prop:haspopulation ?b;
+   prop:hascapital ?capital.
+ ?capital prop:name ?name_capital.
+?b prop:totalpopulation ?population.
+  BIND ((?population /?area) AS ?density)
+}
+
+order by desc (?density)
+Limit 3
+
+--------------------------------------------------------------
+
+SELECT distinct ?name ?language ?percent_of_speaker
+WHERE
+{
+  ?state prop:name ?name;
+         prop:area ?area;
+         prop:nativelanguage ?lang.
+  ?lang prop:languagename ?language;
+   prop:totalpercentage ?percent_of_speaker.
+}
+
+Order by desc(?area) 
+
+LIMIT 1
+
+--------------------------------------------------------------
+
+select ?state_name ?avg_age_women
+where
+{
+  ?state prop:totalliteracyrate ?literacy;
+         prop:name ?state_name;
+         prop:haspopulation ?pop.
+  ?pop  prop:femalepopulation ?fpop.
+  ?fpop prop:averageage ?avg_age_women.
+}
+
+order by desc(?literacy)
+Limit 1
+
+--------------------------------------------------------------
+
+SELECT distinct  ?name_state ?capital_name
+WHERE
+{
+ ?Language prop:languagename 'Hindi'.
+  ?State prop:nativelanguage ?Language.
+  ?Language prop:languagename ?name.
+  ?State prop:name ?name_state.
+  ?State prop:hascapital ?capital.
+  ?capital prop:name ?capital_name.
+}
+
+Order By Desc(?num)
+
+--------------------------------------------------------------
+
+select ?state_name ?avg_height_men ?avg_height_women
+where
+{
+  ?state prop:poliovacinations ?polio;
+         prop:name ?state_name;
+         prop:haspopulation ?pop.
+  ?pop  prop:femalepopulation ?fpop;
+        prop:malepopulation ?mpop.
+  ?fpop prop:averageheight ?avg_height_women.
+  ?mpop prop:averageheight ?avg_height_men.
+}
+
+order by desc(?polio)
+Limit 1
+
+--------------------------------------------------------------

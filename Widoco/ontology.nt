@@ -1,0 +1,311 @@
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCapital
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCapital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCapital> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCapital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCapital> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCapital> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#City> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCareer
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCareer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCareer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCareer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCareer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCareer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCity
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#City> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasFemale
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasFemale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasFemale> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasFemale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasFemale> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Population> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasFemale> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Female> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasMale
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasMale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasMale> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasMale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasMale> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Population> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasMale> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Male> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNativeLanguage
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNativeLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNativeLanguage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNativeLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNativeLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNativeLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNeighbour
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNeighbour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNeighbour> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNeighbour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNeighbour> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasNeighbour> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasPopulation
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasPopulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasPopulation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasPopulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasPopulation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasPopulation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Population> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#similarState
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#similarState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#similarState> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#similarState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#similarState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#similarState> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#similarState> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamArts
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamArts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamArts> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCareer> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamArts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamArts> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamArts> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Arts> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamCommerce
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamCommerce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamCommerce> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCareer> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamCommerce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamCommerce> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamCommerce> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Commerce> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamScience
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamScience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamScience> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#hasCareer> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamScience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamScience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#streamScience> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Science> .
+# 
+# http://www.w3.org/2002/07/owl#topObjectProperty
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Area
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Area> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Area> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Area> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Age
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Age> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Female> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Male> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Age> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Death_Age
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Death_Age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Death_Age> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Death_Age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Death_Age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Female> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Death_Age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Male> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Death_Age> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Height
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Height> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Height> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Female> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Height> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Male> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Average_Height> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream_Percentage
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream_Percentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream_Percentage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream_Percentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Arts> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream_Percentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Commerce> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream_Percentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Science> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream_Percentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language_Name
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language_Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language_Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language_Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Latitude
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Latitude> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Latitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#City> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Latitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Literacy_Rate
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Literacy_Rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Literacy_Rate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Literacy_Rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Literacy_Rate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Female> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Literacy_Rate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Male> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Literacy_Rate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Longitude
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Longitude> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Longitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#City> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Longitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Most_Frequent_Occupation
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Most_Frequent_Occupation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Most_Frequent_Occupation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Most_Frequent_Occupation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Most_Frequent_Occupation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Arts> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Most_Frequent_Occupation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Commerce> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Most_Frequent_Occupation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Science> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Most_Frequent_Occupation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Name
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#City> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Number_of_still_births
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Number_of_still_births> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Number_of_still_births> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Number_of_still_births> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Number_of_still_births> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Number_of_still_births> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Polio_vaccinations
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Polio_vaccinations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Polio_vaccinations> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Polio_vaccinations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Polio_vaccinations> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Polio_vaccinations> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Sex_Ratio
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Sex_Ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Sex_Ratio> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Sex_Ratio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Population> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Sex_Ratio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State_Name
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State_Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#City> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State_Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Statehood
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Statehood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Statehood> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Statehood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Statehood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Statehood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Literacy_Rate
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Literacy_Rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Literacy_Rate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Literacy_Rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Literacy_Rate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Literacy_Rate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Percentage_of_Speakers
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Percentage_of_Speakers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Percentage_of_Speakers> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Percentage_of_Speakers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Percentage_of_Speakers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Percentage_of_Speakers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Population
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Population> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Population> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Population> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Population> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#long> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Speakers
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Speakers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Speakers> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Speakers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Speakers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_Speakers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#long> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_number_of_motor_accidents
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_number_of_motor_accidents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_number_of_motor_accidents> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_number_of_motor_accidents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_number_of_motor_accidents> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Total_number_of_motor_accidents> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Vehicle_code
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Vehicle_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Vehicle_code> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Vehicle_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Vehicle_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Vehicle_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Arts
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Arts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#City
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Commerce
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Commerce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Commerce> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Female
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Female> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Female> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Population> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Male
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Male> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Male> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Population> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Population
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Population> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Population> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Science
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Science> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Science> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#Career_Stream> .
+# 
+# http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State
+<http://www.semanticweb.org/esmonddsouza/ontologies/2019/10/untitled-ontology-3#State> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
